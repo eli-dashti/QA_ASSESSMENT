@@ -1,0 +1,26 @@
+{
+  "name": "test123",
+  "version": "1.0.0",
+  "description": "software test automation with puppeteer",
+  "main": "tests/Task04.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha tests/Task04.js && mocha --timeout 20000"
+
+
+
+  },
+  "keywords": [
+    "puppeteer",
+    "Mocha",
+    "Chai",
+    "Automation"
+  ],
+  "author": "eli",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.4",
+    "puppeteer": "^13.0.1",
+    "puppeteer-jquery": "^0.3.2"
+  }
+}

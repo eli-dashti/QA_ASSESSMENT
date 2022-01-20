@@ -1,0 +1,7 @@
+FROM node:12.18.1
+MAINTAINER ELAHEH_GOLGHANDASHTI
+WORKDIR /app
+
+COPY . .
+
+CMD [ "node", "Mathematic.js" ]
