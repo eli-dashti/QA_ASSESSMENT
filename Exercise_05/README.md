@@ -4,9 +4,7 @@
 ### Installation
 For install the framework, you should follow the following steps:
 
-1. ``` 
-    git clone ------
-2. ```
+1. ```
     npm install
 ### Run in local
 
